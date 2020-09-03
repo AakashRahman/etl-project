@@ -1,23 +1,22 @@
-drop table integra_vnsny;
 drop table integra_insurance;
 drop table vnsny_insurance;
 
 create table integra_insurance (
 	id int primary key,
-	patients_name text,
+	patient_name text,
 	start_date date,
 	end_date date,
-	billed_amount text,
-	paid_amount text	
+	billed_amount decimal,
+	paid_amount decimal	
 );
 
 create table vnsny_insurance (
 	id int primary key,
-	patients_name text,
+	patient_name text,
 	date_of_service date,
 	payment_date date,
-	total_billed text,
-	total_paid text
+	total_billed decimal,
+	total_paid decimal
 );
 
 select * from integra_insurance;
