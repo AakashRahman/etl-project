@@ -1,6 +1,5 @@
-# etl-project
-ETL Project by Aakash Rahman
-ETL Project:
+# ETL Project:
+
 
 Extraction(E):
 I used 2 data set from two Insurance Company (Integra Managed Care and Visiting Nurse Services of New York).
